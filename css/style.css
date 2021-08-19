@@ -1,0 +1,661 @@
+/* some extra styles*/
+/*.product-card .btn.btn-primary, .our-services .btn.btn-primary {*/
+/*    border-color: #f7f7;*/
+/*}*/
+
+.navbar{
+    margin-top: 25px !important;
+}
+
+ .our-services   {
+ top:-423px !important;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+    line-height: 1.9;
+    text-rendering: optimizelegibility;
+}
+
+.logo {
+    max-width: 100%;
+    min-width: 211px;
+    height: 93px;
+    /* margin: 10px 0; */
+    background: url('../img/logo/FT_logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    
+    background: #fff;
+    margin-top: 10px;
+    position: absolute;
+    /*top: 50px;*/
+}
+
+.nav-link {
+    color: #002D4F;
+    font-weight: 500;
+}
+
+li.nav-item.active {
+    border-bottom: 2px solid #002d4f;
+}
+
+.banner {
+    background: #002D4F;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+.our-services {
+    position: relative;
+    top: -450px;
+}
+
+.card {
+    border: 0;
+    margin-bottom: 3rem;
+}
+
+.card, .card-img, .card-img-top {
+    border-radius: 0 !important;
+}
+
+.card-body {
+    background: #FAFAFA;
+    padding-left:  2rem;
+    padding-right:  2rem;
+    text-align: justify;
+}
+
+.card-title {
+    color: #00569A;
+    font-size: 1.2rem;
+    margin-top: 1.7em;
+    text-decoration:none;
+}
+
+.card-text {
+    font-size: 14.5px;
+     
+}
+
+.btn {
+    border: 1px solid #707070;
+    background: #FAFAFA;
+    color: #2f2f2f; 
+    font-size: 15px;
+    border-radius: 0;
+}
+
+.product-card .btn.btn-primary:hover, .our-services .btn.btn-primary:hover, a.btn:hover {
+    background: #010E2A !important;
+    border: 0.5px solid #707070 !important;
+}
+
+a.btn:hover {
+    background: #010E2A !important;
+    border: 0.5px solid #707070 !important;
+    color: #fff !important;
+}
+
+/* .btn > .fas {
+    color: #018FFF;
+} */
+
+/* a.btn:hover {
+    color: #fff;
+}  */
+
+.business-core {
+    top: -340px;
+    position: relative;
+}
+
+.img-icons > img {
+    width: 150px;
+    height: 150px;
+}
+
+.img-2 {
+    position: absolute;
+    top: 27px;
+    right: 110px;
+}
+
+.our-products {
+    background: #FAFAFA;
+    position: relative;
+    top: -250px;
+}
+
+.product-card > .card-body {
+    background: #fff;
+}
+
+.our-partners {
+    position: relative;
+    top: -200px;
+}
+
+.pic {
+    border: .5px solid #CBCBCB;
+    margin-right: 10px;
+    
+}
+
+.pic > img {
+    width: 90px;
+    height: 90px;
+}
+
+.latest-news {
+    background: #FAFAFA;
+    position: relative;
+    top: 0;
+}
+
+.news-card {
+    margin: 14px 0;
+}
+
+.news-card > .d-flex > img {
+    width: 80px;
+    height: 80px;
+    margin-right: 1rem;
+}
+
+.content > p {
+    font-size: 13px;
+}
+
+.heading {
+    border-bottom: 1.5px solid #D2D2D2;
+}
+
+.newsletter > p {
+    font-size: 14px;
+}
+
+.newsletter > .form-group > input {
+    border: 1px solid #707070;
+    padding: 10px 25px;
+    border-radius: 0;
+}
+
+.sub-btn {
+    background: #010E2A;
+    border: 1px solid #707070;
+    color: #fff;
+}
+
+.sub-btn:hover {
+    background: #002D4F !important;
+    border: 1px solid #002D4F !important;
+}
+
+footer {
+    background: #000000;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    height: 290px; 
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footer-logo > img {
+    width: 129px;
+    height: 65px;
+}
+
+.footer-links > ul {
+    list-style: none;
+}
+
+.footer-links > ul > li > a {
+    color: #fff;
+}
+
+.media {
+    color: #fff;
+}
+
+.media-links > div > a {
+    color: #fff;
+}
+
+.copyright > p {
+    font-size: 13px;
+    margin-top: 2rem;
+}
+
+
+/*************************** 
+
+    ABOUT US
+
+****************************/
+
+.about-us-banner {
+    background: url('../img/about-us-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+.about-info {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.board-members {
+    background: #FAFAFA;
+}
+
+.member > div {
+    width: 200px;
+    margin-bottom: .5rem;
+}
+
+.member > div > img {
+    border-radius: 50%;
+}
+
+
+/*************************** 
+
+    SERVICES
+
+****************************/
+.services-banner {
+    background: url('../img/services-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+
+
+
+/*************************** 
+
+    FLIGHT DEALS
+
+****************************/
+.flight-deals-banner {
+    background: url('../img/flight-deals-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+.travel-deals {
+    position: relative;
+    top: -80px;
+}
+
+.deal-cards > div > .card > .card-img > img {
+    width: 100%;
+    height: 255px;
+}
+
+.deal-cards > div > .card > .btn {
+    color: #fff;
+    background: linear-gradient(270deg, #03B4FF 0%, #018FFFFC 52%, #00569A 100%);
+    border: 0;
+}
+
+.vacation {
+    position: relative;
+    top: -90px;
+}
+
+.vacation-cards > div > .card {
+    border: 1px solid #CBCBCB;
+}
+
+.card-body.card-content {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background: #fff;
+}
+
+.book-now {
+    background: #00569A;
+    color: #fff;
+}
+
+.want-deals {
+    background: #fafafa;
+}
+
+.book-with-us > p,
+.need-help > p {
+    font-size: 15px;
+}
+
+
+
+.get-deals > .form-group > input {
+    border: 1px solid #707070;
+    padding: 10px 25px;
+    border-radius: 0;
+}
+
+/*************************** 
+
+    CORPORATE TRAVEL
+
+****************************/
+.ct-banner {
+    background: url('../img/corporate-travel.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+.corporate-travel {
+    line-height: 2;
+    margin-bottom: 150px;
+}
+
+
+/*************************** 
+
+    CUSTOMER TRAVEL
+
+****************************/
+.customer-travel-banner {
+    background: url('../img/woman-in-black-blazer-sitting-on-black-office-chair-3727464.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+.get-a-quote {
+    background: #000000;
+    margin-bottom: 100px;
+}
+
+.quote > .row > div > input,
+.quote > .row > div > select {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0.5px solid #FFFFFF;
+    background: transparent;
+    border-radius: 0;
+    outline: none !important;
+    box-shadow: none !important;
+    color: #fff;
+}
+
+.btn.submit {
+    background: linear-gradient(270deg, #03B4FF 0%, #018FFFFC 52%, #00569A 100%) 0% 0% no-repeat padding-box;
+    border: none;
+    padding: 14px;
+    color: #fff;
+}
+
+/*************************** 
+
+    TRADE PARTNER PLUS
+
+****************************/
+.trade-partner-banner {
+    background: url('../img/trade-partner-plus-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+/*************************** 
+
+    CORPORATE TRAVELLER
+
+****************************/
+.corporate-traveller-banner {
+    background: url('../img/9853@2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+
+/*************************** 
+
+    FINCH CONNECT
+
+****************************/
+.finch-connect-banner {
+    background: url('../img/woman-in-black-blazer-sitting-on-black-office-chair-3727464@2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+
+/*************************** 
+
+    FINCH AFFILIATES
+
+****************************/
+.finch-affiliates-banner {
+    background: url('../img/finch-affiliates.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+
+/*************************** 
+
+    CONTACT PAGE
+
+****************************/
+.contact-banner {
+    background: url('../img/contact-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+.our-offices {
+    background: #fafafa;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.scroll {
+    /* height: 65vh; */
+    overflow-x: hidden;
+}
+
+.office {
+    margin-bottom: 1rem;
+}
+
+.office > ul {
+    list-style: none;
+}
+
+.contact-message {
+    border: 1px solid #707070;
+    padding: 10px 25px;
+    border-radius: 0;
+}
+
+.office > h5 {
+    font-size: 1rem;
+}
+
+.office > ul > li {
+    font-size: .9rem;
+}
+
+.office > ul > li > span > i,
+.office > ul > li > i {
+    color: #00569A;
+}
+
+/*************************** 
+
+    PRESS RELEASE
+
+****************************/
+.press-release-banner {
+    background: url('../img/press-release.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+.release-links {
+    margin-bottom: 300px;
+}
+
+.release-links > .container > table > tr > td {
+    padding-right: 100px;
+}
+
+
+/*************************** 
+
+    MEDIA QUERIES
+
+****************************/
+@media screen and (max-width: 767px) {
+    footer {
+        height: 100%;
+        /* padding-top: 130px !important;
+        padding-bottom: 130px !important; */
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+    
+    .media {
+        align-items: center !important;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .service-info {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .about-info {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .vac-content {
+        flex-direction: column;
+
+    }
+
+    .book-now {
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 1199px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1350px;
+    }
+    
+    .form-control.newsletter-input {
+        width: 380px;
+        height: 60px
+    }
+    
+    .sub-btn {
+        width: 240px;
+        height: 60px;
+    }
+    
+    .media {
+        padding: 0 64px;
+    }
+}
